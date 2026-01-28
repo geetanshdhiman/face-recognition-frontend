@@ -62,3 +62,10 @@
   background-color: #374151;
   margin: 12px 0;
 }
+
+
+.sidebar-link.active {
+  background-color: #0057e2;
+  color: #ffffff;
+  font-weight: 500;
+}
