@@ -1,0 +1,64 @@
+/* ===== Sidebar Container ===== */
+.sidebar {
+  width: 224px; /* w-56 */
+  min-height: 100vh;
+  background-color: #111827; /* gray-900 */
+  color: #ffffff;
+  padding: 16px;
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== Sidebar Title ===== */
+.sidebar-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+}
+
+/* ===== Navigation ===== */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+}
+
+/* ===== Navigation Links ===== */
+.sidebar-link {
+  padding: 10px 12px;
+  border-radius: 6px;
+  color: #d1d5db; /* gray-300 */
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.sidebar-link:hover {
+  background-color: #1f2937; /* gray-800 */
+  color: #ffffff;
+  transform: translateX(4px);
+}
+
+/* ===== Active Link (future use) ===== */
+.sidebar-link.active {
+  background-color: #374151; /* gray-700 */
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* ===== Logout Special Style ===== */
+.sidebar-link.logout {
+  color: #f87171; /* red-400 */
+}
+
+.sidebar-link.logout:hover {
+  background-color: rgba(248, 113, 113, 0.15);
+  color: #fecaca;
+}
+
+/* ===== Divider ===== */
+.sidebar-divider {
+  height: 1px;
+  background-color: #374151;
+  margin: 12px 0;
+}
